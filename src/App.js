@@ -3,7 +3,7 @@ import {Route, Link} from "react-router-dom"
 import axios from "axios"
 import Party from "./Party"
 import Home from "./Home"
-import Guest from "./Guest"
+import Footer from "./Footer"
 import "./App.css"
 
 export default function App() {
@@ -22,10 +22,12 @@ export default function App() {
 
   return (
     <>
-      <Home path ="/" exact className="home"/>
+      <Route path="/" exact>
+      <Home className="home" />
+      </Route>
      <Route path="/party">
         <Party gif={gif} className="party" />
-     </Route>
+      </Route>
     </>
   )
 }

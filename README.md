@@ -329,7 +329,7 @@ Depoloyment:
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|June 29| Project Overview (No project URL, snippet or Change Log | INCOMPLETE
+|June 29| Project Overview (No project URL, snippet or Change Log | COMPLETE
 |June 30| Create Home and Party Components, Make API Request and render gif | INCOMPLETE
 |July 1| Create Buttons and route from home to party| INCOMPLETE
 |July 2| Style Components | INCOMPLETE
