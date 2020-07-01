@@ -9,7 +9,7 @@ import './App.css'
 export default function Party(props) {
 
   let [lights, updateLights] = useState([])
-  
+
   function handleLights() {
     const lightsOff = {
       style: {
@@ -25,22 +25,25 @@ export default function Party(props) {
   }
 
   return (<>
-    <div style={lights.style} >
-      <Header/>
-      <button onClick={handleLights} className="lights">
-        Lights
-      </button>
-
-     <Disco/>
-     <iframe className="boombox" width="280" height="157" src="https://www.youtube.com/embed/Tsna_zk8X1E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <div className="house">
-        <Guest gif={props} className="guest" style={lights.style}/>
-        <Guest/>
-        <Guest/>
+    <div style={lights.style} className="container" >
+      <Header />
+      <div className="control-panel">
+        <button onClick={handleLights} className="lights-button">
+          Lights
+        </button>
+        <Disco />
+      </div>
+      <iframe className="boombox" width="280" height="157" src="https://www.youtube.com/embed/Tsna_zk8X1E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div className="guest-container">
+        <Guest gif={props} className="guest" style={lights.style} />
         <Guest />
-        <Guest/>
-        <Guest/>
-        <Guest/>
+        <Guest />
+        <Guest />
+        <Guest />
+        <Guest />
+        <Guest />
+        <Guest />
+        <Guest />
       </div>
       <Footer style={lights.style} />
     </div>

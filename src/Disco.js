@@ -12,14 +12,14 @@ export default function Disco() {
         backgroundSize: "cover",
         backgroundPosition: "center",
         height: "150px",
-        width:"150px"
-      }
+        width: "150px"
+    }
     }
     updateDiscoBall(ballOn)
   }
   return (<>
-    <div style={discoBall.style} >
-      <button onClick={handleBall}>Disco</button>
+    <div style={discoBall.style} className="disco-ball">
     </div>
+    <button onClick={handleBall} className="disco-button">Disco</button>
 </>)
 }

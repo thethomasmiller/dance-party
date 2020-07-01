@@ -1,70 +1,15 @@
-/* .party{
-} */
-
-.boombox{
-  margin-left:20%;
-
-
-}
-
-.disco-ball{
-  width: 175px;
-  margin-left: 25%;
-  padding-bottom: 15px;
-}
-
-
-.disco-button{
-  margin-left: 46%;
-}
- 
-.footer{
-  display: flex;
-  margin-left: 39%;
-  color:rgb(50,184,52);
-  margin-top: 25%;
-  padding-bottom: 100%;
-}
-
-.gif{
-  width: 175px;
-  padding-left: 25%;
-  padding-bottom: 15px;
-}
-.guest{
- margin: 25%;
- margin-top: 5px;
- margin-bottom: 5px;
- padding: 25px;
- border: 2px solid white;
-}
-
-
+/* Header */
 .header{
   display: flex;
-  margin-left: 8%;
-  margin-top: 0;
-  letter-spacing: 30px;
+  margin: auto;
+  letter-spacing:10%;
   font-size: 75px;
 }
+
+/* Home */
+
 .home{
   background-color: yellow;
-}
-.house{
-  display:flex;
-  flex-direction: column;
-  padding: 10px;
-}
-
-
-.invite-button{
-  margin-left: 32% ;
-  background-color: rgb(55,189,234);
-  padding: 10px;
-  font-size: large;
-  font-weight: bold;
-  color: beige;
-  border-radius: 500px;
 }
 
 .lets-dance-button{
@@ -76,16 +21,95 @@
   font-weight: bold;
   color: beige;
   border-radius: 500px;
+}
+
+
+/* Party */
+
+.container{
+  display:flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.control-panel{
+  display: flex;
+  margin: auto;
+  padding: 10px;
+}
+
+
+
+.lights-button{
+  margin: auto;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  padding:10px 5px;
+  width: 50px;
+}
+
+.disco-button{
+  margin: auto;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  padding:10px 5px;
+}
+
+.disco-button:active{
+  background: rgb(255, 0, 0);
+}
+
+.disco-ball{
+  width: 175px;
+  margin-left: 41%;
+  padding-bottom: 15px;
+}
+
+.boombox{
+  margin-left:34%;
+}
+
+.guest-container{
+  display:flex;
+  flex-wrap: wrap;
+  max-width: 700px;
+  margin:auto;
+  padding: 10px;
 
 }
 
-.lights{
-display: flex;
-flex-direction: column;
-justify-content: center;
-margin-left: 46%;
+.guest{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  border: 2px solid white;
+  }
+ 
+.gif{
+  width: 175px;
+  padding: 2px;
+  padding-bottom: 15px;
+}
+  
+.invite-button{
+  margin: auto;
+  background-color: rgb(55,189,234);
+  padding: 10px;
+  font-size: large;
+  font-weight: bold;
+  color: beige;
+  border-radius: 500px;
+}
 
+/* Footer */
 
-
-
+.footer{
+  display: flex;
+  margin-left: 39%;
+  color:rgb(50,184,52);
+  margin-top: 25%;
+  padding-bottom: 100%;
 }
