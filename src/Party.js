@@ -10,7 +10,6 @@ export default function Party(props) {
 
   let [lights, updateLights] = useState([])
   
-
   function handleLights() {
     const lightsOff = {
       style: {
@@ -25,22 +24,6 @@ export default function Party(props) {
     updateLights(lightsOff)
   }
 
-  let [discoBall, updateDiscoBall] = useState([])
-  
-  function handleBall() {
-    const ballOn = {
-      style: {
-        backgroundImage: "url(https://66.media.tumblr.com/7ed2dab49586c00956a0bb491d1b5538/tumblr_mlnzx84Ur21qzw1qyo1_500.gifv)",
-        backgroundSize: "cover",
-        backgroundPosition: "center"
-      }
-    }
-    updateDiscoBall(ballOn)
-  }
-
-
-
-
   return (<>
     <div style={lights.style} >
       <Header/>
@@ -48,10 +31,8 @@ export default function Party(props) {
         Lights
       </button>
 
-      <button onCLick={handleBall}>Disco</button>
-
-      <div style={{backgroundColor:"blue"},discoBall.style} className="disco-ball"> </div>
-
+     <Disco/>
+     <iframe className="boombox" width="280" height="157" src="https://www.youtube.com/embed/Tsna_zk8X1E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <div className="house">
         <Guest gif={props} className="guest" style={lights.style}/>
         <Guest/>

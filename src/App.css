@@ -1,5 +1,12 @@
 /* .party{
 } */
+
+.boombox{
+  margin-left:20%;
+
+
+}
+
 .disco-ball{
   width: 175px;
   padding-left: 25%;
@@ -51,7 +58,13 @@
 
 
 .invite-button{
-  margin-left: 37% ;
+  margin-left: 32% ;
+  background-color: rgb(55,189,234);
+  padding: 10px;
+  font-size: large;
+  font-weight: bold;
+  color: beige;
+  border-radius: 500px;
 }
 
 .lets-dance-button{
