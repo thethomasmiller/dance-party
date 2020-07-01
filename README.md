@@ -330,8 +330,8 @@ Depoloyment:
 |  Day | Deliverable | Status
 |---|---| ---|
 |June 29| Project Overview (No project URL, snippet or Change Log | COMPLETE
-|June 30| Create Home and Party Components, Make API Request and render gif | INCOMPLETE
-|July 1| Create Buttons and route from home to party| INCOMPLETE
+|June 30| Create Home and Party Components, Make API Request and render gif | COMPLETE
+|July 1| Create Buttons and route from home to party| COMPLETE
 |July 2| Style Components | INCOMPLETE
 |July 3| Post MVP: Add more guests, refine styling | INCOMPLETE
 |July 6| Present | INCOMPLETE
