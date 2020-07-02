@@ -11,7 +11,7 @@ export default function Home() {
   return (<>
     <div className="home">
       <Header Link to="/"/> 
-    <Link to ="/party">
+    <Link to ="/party" style={{ textDecoration: "none" }}>
       <button className = "lets-dance-button"> LETS DANCE</button>
     </Link>
     <Footer/>

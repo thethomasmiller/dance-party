@@ -1,9 +1,9 @@
 /* Header */
 .header{
   display: flex;
-  margin: auto;
-  letter-spacing:10%;
+  font-family: 'Francois One', sans-serif;
   font-size: 75px;
+  margin: auto;
   min-width: 320px;
 }
 
@@ -12,19 +12,21 @@
 .home{
   display: flex;
   flex-direction: column;
-  justify-content: center;
   background-color: yellow;
 }
 
 .lets-dance-button{
-  margin-left:43%;
-  margin-top: 25%;
-  padding: 10px;
+  display: flex;
   background-color: rgb(55,189,234);
+  color: white;
+  border: 2px ridge white;
+  border-radius: 500px;
+  font-family: 'Open Sans', sans-serif;
   font-size: large;
   font-weight: bold;
-  color: beige;
-  border-radius: 500px;
+  margin: auto;
+  padding: 10px;
+  
 }
 
 /* Party */
@@ -42,6 +44,7 @@
 }
 
 .lights-button{
+  font-family: "Open Sans", sans-serif;
   margin: auto;
   border: 1px solid #aaa;
   border-radius: 5px;
@@ -55,6 +58,7 @@
 }
 
 .disco-button{
+  font-family: "Open Sans", sans-serif;
   margin: auto;
   border: 1px solid #aaa;
   border-radius: 5px;
@@ -63,14 +67,18 @@
 }
 
 .disco-button:active{
-  background: rgb(255, 0, 0);
+  background:yellow;
 }
 
 .disco-ball{
+  border-radius: 100px;
+  margin: 10px;
   width: 175px;
+ 
 }
 
 .refresh-button{
+  font-family: "Open Sans", sans-serif;
   margin: auto;
   border: 1px solid #aaa;
   border-radius: 5px;
@@ -79,7 +87,7 @@
 }
 
 .boombox{
-  margin-left:34%;
+  margin: auto;
 }
 
 .guest-container{
@@ -98,23 +106,31 @@
   margin-top: 5px;
   margin-bottom: 5px;
   padding: 5px;
-  border: 2px solid white;
   }
  
 .gif{
-  width: 175px;
+  width: 150px;
+  height: 150px;
   padding: 2px;
   padding-bottom: 15px;
+  
 }
   
 .invite-button{
-  margin: auto;
+  display: flex;
   background-color: rgb(55,189,234);
-  padding: 10px;
+  color: white;
+  border: 5px solid white;
+  border-radius: 2px;
+  font-family: 'Open Sans', sans-serif;
   font-size: large;
   font-weight: bold;
-  color: beige;
-  border-radius: 500px;
+  margin: auto;
+  padding: 10px;
+}
+
+.invite-button:active{
+  background-color: yellow;
 }
 
 /* Footer */
@@ -122,6 +138,7 @@
 .footer{
   display: flex;
   margin: auto;
+  font-family: 'Francois One', sans-serif;
 }
 
 .giphy-link{

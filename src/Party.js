@@ -14,7 +14,7 @@ export default function Party(props) {
   function handleLights() {
     const lightsOff = {
       style: {
-        backgroundImage: "url(https://66.media.tumblr.com/tumblr_m913co2zDb1qeqai4o1_500.gifv)",
+        backgroundImage: "url(https://media2.giphy.com/media/3FoCLhuJfNJ8zIukIn/giphy.gif?cid=ecf05e47f62f6fbf246e37b43b526612a3bb1ab9b0a63e77&rid=giphy.gif)",
         backgroundSize: "cover",
         backgroundPosition: "center",
         // backgroundClip: "text",
