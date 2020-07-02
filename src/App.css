@@ -1,6 +1,5 @@
 /* Header */
 .header{
-  display: flex;
   margin: auto;
   letter-spacing:10%;
   font-size: 75px;
@@ -9,6 +8,9 @@
 /* Home */
 
 .home{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: yellow;
 }
 
@@ -23,7 +25,6 @@
   border-radius: 500px;
 }
 
-
 /* Party */
 
 .container{
@@ -34,18 +35,22 @@
 
 .control-panel{
   display: flex;
+  flex-direction: column;
   margin: auto;
   padding: 10px;
 }
-
-
 
 .lights-button{
   margin: auto;
   border: 1px solid #aaa;
   border-radius: 5px;
   padding:10px 5px;
-  width: 50px;
+  width: 75px;
+}
+
+.disco{
+  display: flex;
+  flex-direction: column;
 }
 
 .disco-button{
@@ -53,6 +58,7 @@
   border: 1px solid #aaa;
   border-radius: 5px;
   padding:10px 5px;
+  width: 75px;
 }
 
 .disco-button:active{
@@ -63,6 +69,14 @@
   width: 175px;
   margin-left: 41%;
   padding-bottom: 15px;
+}
+
+.refresh-button{
+  margin: auto;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  padding:10px 5px;
+  width: 75px;
 }
 
 .boombox{
@@ -108,8 +122,19 @@
 
 .footer{
   display: flex;
-  margin-left: 39%;
+  margin: auto;
+}
+
+.giphy-link{
+  text-decoration: none;
+
+}
+
+.giphy-link:link{
   color:rgb(50,184,52);
-  margin-top: 25%;
-  padding-bottom: 100%;
+
+}
+
+.giphy-link:visited{
+  color:rgb(50,184,52);
 }

@@ -261,18 +261,18 @@ Component Hierarchy (Component Number)
 App (1) API Call
 Home (2)
   - Header "Dance Party" (3)
-  - Button (Links to Party page)(4)
-  - Footer with link to Giphy (5)
-Party (6)
+  - Button (Links to Party page)(3)
+  - Footer with link to Giphy (4)
+Party (5)
   - Header "Dance Party" (3)
-  - Button for Lights (turns background black and borders and text brights colors tbd) (7)
-  - "Guest" Container" (8) for gif  with Button (9) which renders gif with a click (API Data passed here)
+  - Button for Lights (turns background black and borders and text brights colors tbd) (5)
+  - "Guest" Container" (6) for gif  with Button (9) which renders gif with a click (API Data passed here)
   - Footer with link to Giphy (5)
 
 Post MVP
-  - Button for Disco Ball (10)
-  - Button to return to Home for a new party (11)
-  - Nine Guests at the party (Repeat 8)
+  - Button for Disco Ball (7)
+  - Button to return to Home for a new party (8)
+  - Nine Guests at the party (Repeat 6)
 
 
 

@@ -17,9 +17,11 @@ export default function Disco() {
     }
     updateDiscoBall(ballOn)
   }
-  return (<>
+  return (<> 
+    <div className="disco">
     <div style={discoBall.style} className="disco-ball">
     </div>
-    <button onClick={handleBall} className="disco-button">Disco</button>
+      <button onClick={handleBall} className="disco-button">Disco</button>
+   </div>
 </>)
 }

@@ -6,7 +6,7 @@ export default class Footer extends Component {
     return (<>
     
       <h2 className="footer">
-        Powered by Giphy
+        <a href="https://giphy.com/" className= "giphy-link">POWERED BY GIPHY</a>
       </h2>
     
       </>

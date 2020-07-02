@@ -3,6 +3,7 @@ import Guest from "./Guest"
 import Header from "./Header"
 import Footer from "./Footer"
 import Disco from "./Disco"
+import Refresh from "./Refresh"
 import './App.css'
 
 
@@ -32,6 +33,7 @@ export default function Party(props) {
           Lights
         </button>
         <Disco />
+        <Refresh/>
       </div>
       <iframe className="boombox" width="280" height="157" src="https://www.youtube.com/embed/Tsna_zk8X1E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <div className="guest-container">
