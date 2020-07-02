@@ -5,6 +5,7 @@ import Footer from "./Footer"
 import Disco from "./Disco"
 import Refresh from "./Refresh"
 import './App.css'
+import Boombox from './Boombox'
 
 
 export default function Party(props) {
@@ -28,14 +29,16 @@ export default function Party(props) {
   return (<>
     <div style={lights.style} className="container" >
       <Header />
+     
       <div className="control-panel">
         <button onClick={handleLights} className="lights-button">
           Lights
         </button>
-        <Disco />
+        <Disco/>
         <Refresh/>
       </div>
-      <iframe className="boombox" width="280" height="157" src="https://www.youtube.com/embed/Tsna_zk8X1E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+      <Boombox/>
       <div className="guest-container">
         <Guest gif={props} className="guest" style={lights.style} />
         <Guest />

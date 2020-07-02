@@ -9,8 +9,8 @@ export default class Header extends Component {
   }
   render() {
     return (
-      <div>
-        <Link to="/" style={{ textDecoration: "none" }}><h1 style={{ color: "red", textDecoration: "none" }} className="header">DANCEPARTY</h1></Link> 
+      <div className="header">
+        <Link to="/" style={{ textDecoration: "none" }}><h1 style={{ color: "red", textDecoration: "none" }} >DANCEPARTY</h1></Link> 
       </div>
     )
   }

@@ -15,17 +15,6 @@ export default function Disco() {
         width: "150px"
       }
     }
-      const ballOff = {
-      style: {
-      backgroundImage: "url()",
-      backgroundSize: "none",
-      backgroundPosition: "none",
-      height: "0px",
-      width: "0px"
-      }
-    }
-
-
     updateDiscoBall(ballOn)
   }
   return (<> 
