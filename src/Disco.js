@@ -13,15 +13,25 @@ export default function Disco() {
         backgroundPosition: "center",
         height: "150px",
         width: "150px"
+      }
     }
+      const ballOff = {
+      style: {
+      backgroundImage: "url()",
+      backgroundSize: "none",
+      backgroundPosition: "none",
+      height: "0px",
+      width: "0px"
+      }
     }
+
+
     updateDiscoBall(ballOn)
   }
   return (<> 
-    <div className="disco">
-    <div style={discoBall.style} className="disco-ball">
-    </div>
+    <div className={discoBall ? "disco" : null} >
       <button onClick={handleBall} className="disco-button">Disco</button>
+      <div style={discoBall.style} className="disco-ball"></div>
    </div>
 </>)
 }

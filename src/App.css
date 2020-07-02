@@ -1,8 +1,10 @@
 /* Header */
 .header{
+  display: flex;
   margin: auto;
   letter-spacing:10%;
   font-size: 75px;
+  min-width: 320px;
 }
 
 /* Home */
@@ -30,13 +32,12 @@
 .container{
   display:flex;
   flex-direction: column;
-  margin: auto;
+  min-width: 320px;
 }
 
 .control-panel{
   display: flex;
-  flex-direction: column;
-  margin: auto;
+  justify-content: center;
   padding: 10px;
 }
 
@@ -67,8 +68,6 @@
 
 .disco-ball{
   width: 175px;
-  margin-left: 41%;
-  padding-bottom: 15px;
 }
 
 .refresh-button{
