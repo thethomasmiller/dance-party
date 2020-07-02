@@ -169,3 +169,21 @@
 .giphy-link:visited{
   color:rgb(50,184,52);
 }
+
+
+@media only screen and (max-width: 600px) {
+
+  .header{
+    display: flex;
+    font-family: 'Francois One', sans-serif;
+    font-size: 175%;
+    margin: auto;
+  }
+
+.control-panel,
+.guest-container {
+  width: auto;
+}
+
+}
+
