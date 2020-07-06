@@ -322,7 +322,7 @@ Depoloyment:
 |July 1| Create Buttons and route from home to party| COMPLETE
 |July 2| Style Components | COMPLETE
 |July 3| Post MVP: Add more guests, refine styling | COMPLETE
-|July 6| Present | INCOMPLETE
+|July 6| Present | COMPLETE
 
 
 ## Timeframes

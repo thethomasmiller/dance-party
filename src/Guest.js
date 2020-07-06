@@ -19,7 +19,6 @@ export default function Guest(props) {
   return (
     <div className="guest">
       <img src={guest.fixed_width_small_url} className="gif"/>
-      {/* <img src={props.gif.gif.fixed_width_small_url} className="gif" /> */}
       <button onClick={handleClick} className="invite-button">
         Invite Guest
       </button>
