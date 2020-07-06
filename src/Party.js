@@ -1,11 +1,14 @@
+// Party Page
+
 import React, { useState } from 'react'
 import Guest from "./Guest"
 import Header from "./Header"
 import Footer from "./Footer"
 import Disco from "./Disco"
 import Refresh from "./Refresh"
-import './App.css'
 import Boombox from './Boombox'
+import './App.css'
+
 
 
 export default function Party(props) {

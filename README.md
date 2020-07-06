@@ -2,7 +2,7 @@
 
 ## D A N C E P A R T Y: A REACT APP
 
-url tbd
+[DANCEPARTY](https://relaxed-visvesvaraya-64c790.netlify.app/)
 
 ## Project Description
 
@@ -265,8 +265,8 @@ Home (2)
   - Footer with link to Giphy (4)
 Party (5)
   - Header "Dance Party" (3)
-  - Button for Lights (turns background black and borders and text brights colors tbd) (5)
-  - "Guest" Container" (6) for gif  with Button (9) which renders gif with a click (API Data passed here)
+  - Button for Lights (turns background black and borders brights colors tbd) (5)
+  - "Guest" Container" (6) for gif with Button (9) which renders gif with a click (API Data passed here from App)
   - Footer with link to Giphy (5)
 
 Post MVP
@@ -274,26 +274,14 @@ Post MVP
   - Button to return to Home for a new party (8)
   - Nine Guests at the party (Repeat 6)
 
-
-
-Class and Functional Componenets:
-Home Page
-1. A home page with header and footer
-2. A button component on the home page that routes to a party page via a link 
-Party Page
-3. A button component that turns the site background black and turns the borders of the guest component, and all text a color on a click 
-4. A button component that starts a disco ball image that bounces around the screen
-5. A button component that returns the user to the home page for a new party
-6. A guest button component which renders a dance gif with a click. 
-
 Styling:
--Styled using Flexbox and Styled Components
+-Styled using Flexbox and Style Sheet, select styled components
 
 Responsive Design:
 -Responds to user adjustments for desktop to mobile viewing
 
 Depoloyment:
-- Deploy site using GitHub Pages for live access
+- Deploy site using Netlify for live access
 
 -Fully Linted
 
@@ -332,8 +320,8 @@ Depoloyment:
 |June 29| Project Overview (No project URL, snippet or Change Log | COMPLETE
 |June 30| Create Home and Party Components, Make API Request and render gif | COMPLETE
 |July 1| Create Buttons and route from home to party| COMPLETE
-|July 2| Style Components | INCOMPLETE
-|July 3| Post MVP: Add more guests, refine styling | INCOMPLETE
+|July 2| Style Components | COMPLETE
+|July 3| Post MVP: Add more guests, refine styling | COMPLETE
 |July 6| Present | INCOMPLETE
 
 
@@ -342,20 +330,36 @@ Depoloyment:
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Find API | H | 4 hrs | 2 hrs | 2 hrs|
-| Project Overview | H | 8 hrs | 6 hrs | X hrs |
-| Base React App and Component Pages | H | 4 hr |  X hr |  X hr |
-| Build button functions and components| H | 3 hrs|  X hr  | X hr |
-| Build Guest Component | H | 5 hrs | X hrs | X hrs |
-| Styling with Flexbox | H | 4 hrs |  X hrs | X hrs |
-| Base CSS (fonts, background, color-scheme etc.) | H | 2 hrs |  X hrs | X hrs |
-| Post-MVP: Add Guests| H | 4 hrs |  X hrs |  X hrs |
-| Post-MVP: Refine CSS| H | 4 hrs |  X hrs |  X hrs |
-| Total | H | 40 hrs| 8 hrs | X hrs |
+| Project Overview | H | 8 hrs | 6 hrs | 6 hrs |
+| Base React App and Component Pages | H | 4 hrs |  4 hrs |  4 hrs |
+| Build button functions and components| H | 3 hrs|  3 hrs  | 3 hrs |
+| Build Guest Component | H | 5 hrs | 7 hrs | 7 hrs |
+| Styling with Flexbox | H | 4 hrs |  8 hrs | 8 hrs |
+| Base CSS (fonts, background, color-scheme etc.) | H | 2 hrs |  2 hrs | 2 hrs |
+| Post-MVP: Add Guests| H | 4 hrs |  .1 hrs |  .1 hrs |
+| Post-MVP: Refine CSS| H | 4 hrs |  2 hrs |  2 hrs |
+| Total | H | 40 hrs| 34 hrs | 34 hrs |
 
 ## Code Snippet
 
-- TBD
+This code creates the party background and border by putting styles in state and applying them to the specified componenet with a click!
+
+  let [lights, updateLights] = useState([])
+
+  function handleLights() {
+    const lightsOff = {
+      style: {
+        backgroundImage: "url(https://media2.giphy.com/media/3FoCLhuJfNJ8zIukIn/giphy.gif?cid=ecf05e47f62f6fbf246e37b43b526612a3bb1ab9b0a63e77&rid=giphy.gif)",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        // backgroundClip: "text",
+        border: "10px dashed rgb(242, 7, 180)",
+        color: "transparent"
+      }
+    }
+    updateLights(lightsOff)
+  }
     
 
-
 ## Change Log
+- Disco Ball changed to static from bouncing around page. 
