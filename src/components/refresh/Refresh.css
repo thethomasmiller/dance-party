@@ -1,0 +1,14 @@
+.refresh-button{
+  font-family: "Open Sans", sans-serif;
+  margin: auto;
+  margin-bottom: 20px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  padding:10px 5px;
+  width: 75px;
+  
+}
+
+.refresh-button:active{
+  background-color: yellow;
+}

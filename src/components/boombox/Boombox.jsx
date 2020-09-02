@@ -1,4 +1,5 @@
 import React from 'react'
+import './Boombox.css'
 
 export default function Boombox() {
   return (

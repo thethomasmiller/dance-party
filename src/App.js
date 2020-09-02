@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import {Route} from "react-router-dom"
 import axios from "axios"
-import Party from "./Party"
-import Home from "./Home"
+import Party from "./components/party/Party"
+import Home from "./components/home/Home"
 import "./App.css"
 
 export default function App() {

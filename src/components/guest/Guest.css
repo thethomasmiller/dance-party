@@ -1,0 +1,44 @@
+
+
+.guest{
+  display: flex;
+  flex-direction: column;
+  
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  }
+ 
+.gif{
+  width: 100px;
+  height: 100px;
+  padding: 2px;
+  padding-bottom: 15px;
+  
+}
+  
+.invite-button{
+  display: flex;
+  background-color: rgb(55,189,234);
+  color: white;
+  border: 5px solid white;
+  border-radius: 2px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  margin: auto;
+  padding: 10px;
+}
+
+.invite-button:active{
+  background-color: yellow;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  .guest-container {
+    width: auto;
+  }
+
+}

@@ -1,0 +1,25 @@
+
+.disco{
+  display: flex;
+  flex-direction: column;
+}
+
+.disco-button{
+  font-family: "Open Sans", sans-serif;
+  margin: auto;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  padding:10px 5px;
+  width: 75px;
+}
+
+.disco-button:active{
+  background:yellow;
+}
+
+.disco-ball{
+  border-radius: 100px;
+  margin: 10px;
+  width: 175px;
+ 
+}

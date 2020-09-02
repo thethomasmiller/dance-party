@@ -1,0 +1,19 @@
+
+.footer{
+  font-family: 'Francois One', sans-serif;
+  margin: auto;
+}
+
+.giphy-link{
+  text-decoration: none;
+
+}
+
+.giphy-link:link{
+  color:rgb(50,184,52);
+
+}
+
+.giphy-link:visited{
+  color:rgb(50,184,52);
+}

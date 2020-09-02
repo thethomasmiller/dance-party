@@ -1,6 +1,7 @@
 //Refresh (New) Button
 
 import React from 'react';
+import './Refresh.css'
 
 function Refresh() {
   
