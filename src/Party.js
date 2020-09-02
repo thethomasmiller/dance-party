@@ -31,6 +31,9 @@ export default function Party(props) {
 
   return (<>
     <div style={lights.style} className="container" >
+      
+      
+      
       <Header />
      
       <div className="control-panel">
