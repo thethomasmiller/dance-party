@@ -28,8 +28,12 @@ export default function App() {
         backgroundPosition: "center",
         // backgroundClip: "text",
         border: "10px dashed rgb(242, 7, 180)",
-        height: '100vh',
-        color: "transparent"
+        padding: "10px",
+        height: "100vh",
+        width: "100vw"
+      },
+      styleTwo: {
+
       }
     }
     updateLights(lightsOff)

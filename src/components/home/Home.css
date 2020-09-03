@@ -6,8 +6,12 @@
   align-items: center;
 }
 .home-header{
-
-  
+margin: auto;
+font-family:'Francois One', sans-serif;
+font-size:18vw;
+color: red;
+text-transform: uppercase;
+;
 }
 
 
@@ -25,5 +29,11 @@
 }
 
 .lets-dance-button:hover{
-  transform: scale(1.5);
+  transform: scale(2);
+}
+
+.lets-dance-button:active{
+  background-image: linear-gradient(to bottom right, red, yellow,blue);
+  
+
 }
