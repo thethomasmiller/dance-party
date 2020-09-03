@@ -12,7 +12,7 @@ export default function Home() {
 
   return (<>
     <div className="home">
-      <Header Link to="/" />
+      <div className='home-header'>Danceparty</div>
       <Link to="/party" style={{ textDecoration: "none" }}>
         <button className="lets-dance-button"> LETS DANCE</button>
       </Link>

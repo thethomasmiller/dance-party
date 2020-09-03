@@ -4,16 +4,17 @@
   margin: auto;
 }
 
-.giphy-link{
+.citation-link{
   text-decoration: none;
-
-}
-
-.giphy-link:link{
   color:rgb(50,184,52);
 
 }
 
-.giphy-link:visited{
+.citation-link:link{
+  color:rgb(50,184,52);
+
+}
+
+.citation-link:visited{
   color:rgb(50,184,52);
 }
