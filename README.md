@@ -2,7 +2,7 @@
 
 ## D A N C E P A R T Y: A REACT APP
 
-[DANCEPARTY](https://relaxed-visvesvaraya-64c790.netlify.app/)
+[DANCEPARTY](https://dancepartydanceparty.netlify.app/)
 
 ## Project Description
 
@@ -13,6 +13,8 @@ Turn on the disco ball!
 
 
 ## API and Data Sample
+
+This application was approved for a GIPHY Production API!
 
 API: [Giphy AP](https://developers.giphy.com/docs/api/)
 Endpoint: [Random Dance Tag](https://api.giphy.com/v1/gifs/random?api_key=Q2M4GK4agfhUL6T3S2A2H1M2JhIs9hbT&tag=dance&rating=G)
